@@ -1,0 +1,98 @@
+2018-01-06 22:25:54,300 - testclasses.NewTestCase1 -INFO - Chrome Browser is Launched
+2018-01-06 22:26:05,760 - testclasses.NewTestCase1 -INFO - Application is Launched
+2018-01-06 22:26:07,237 - testclasses.NewTestCase1 -INFO - Entered Malleshwar
+2018-01-06 22:26:07,448 - testclasses.NewTestCase1 -INFO - Entered cmgoud@gmail.com
+2018-01-06 22:26:07,712 - testclasses.NewTestCase1 -INFO - Entered 9642775888
+2018-01-06 22:26:12,019 - testclasses.NewTestCase1 -INFO - Text is displayed as :Services
+2018-01-06 22:26:12,192 - testclasses.NewTestCase1 -INFO - Text is displayed as :AutomationScriptsForTestDataMining
+2018-01-06 22:26:12,339 - testclasses.NewTestCase1 -INFO - Getting the text value:  BusinessAssuranceExecutionTracker
+2018-01-06 22:43:41,427 - testclasses.NewTestCase1 -INFO - Chrome Browser is Launched
+2018-01-06 22:43:50,867 - testclasses.NewTestCase1 -INFO - Application is Launched
+2018-01-06 22:43:52,298 - testclasses.NewTestCase1 -INFO - Entered Malleshwar
+2018-01-06 22:43:52,572 - testclasses.NewTestCase1 -INFO - Entered cmgoud@gmail.com
+2018-01-06 22:43:52,897 - testclasses.NewTestCase1 -INFO - Entered 9642775888
+2018-01-06 22:43:56,547 - testclasses.NewTestCase1 -INFO - Text is displayed as :Services
+2018-01-06 22:43:57,071 - testclasses.NewTestCase1 -INFO - Text is displayed as :AutomationScriptsForTestDataMining
+2018-01-06 22:43:57,248 - testclasses.NewTestCase1 -INFO - Getting the text value:  BusinessAssuranceExecutionTracker
+2018-01-09 12:48:11,898 - testclasses.Tc11 -INFO - Chrome Browser is Launched
+2018-01-09 12:48:21,347 - testclasses.Tc11 -INFO - Application is Launched
+2018-01-09 12:48:22,819 - testclasses.Tc11 -INFO - Entered cmgoud@gmail.com
+2018-01-09 12:48:22,980 - testclasses.Tc11 -INFO - Entered Malleshwar
+2018-01-09 12:48:25,769 - testclasses.Tc11 -INFO - Text is displayed as :Services
+2018-01-09 12:48:29,037 - testclasses.Tc11 -INFO - Clicked on Partnerships Link
+2018-01-09 12:50:29,391 - testclasses.Tc11 -ERROR - Text is displayed as :ShareThisCopyAndPaste
+2018-01-09 12:50:31,229 - testclasses.Tc11 -INFO - Clicked on Services Link
+2018-01-09 13:03:41,501 - testclasses.Tc11 -INFO - Chrome Browser is Launched
+2018-01-09 13:03:50,296 - testclasses.Tc11 -INFO - Application is Launched
+2018-01-09 13:03:52,178 - testclasses.Tc11 -INFO - Entered cmgoud@gmail.com
+2018-01-09 13:03:52,327 - testclasses.Tc11 -INFO - Entered Malleshwar
+2018-01-09 13:03:55,780 - testclasses.Tc11 -INFO - Text is displayed as :Services
+2018-01-09 13:03:59,065 - testclasses.Tc11 -INFO - Clicked on Partnerships Link
+2018-01-09 13:05:59,418 - testclasses.Tc11 -ERROR - Text is displayed as :ShareThisCopyAndPaste
+2018-01-09 13:06:01,553 - testclasses.Tc11 -INFO - Clicked on Services Link
+2018-01-09 13:07:17,303 - testclasses.Tc11 -INFO - Chrome Browser is Launched
+2018-01-09 13:07:24,451 - testclasses.Tc11 -INFO - Application is Launched
+2018-01-09 13:07:25,866 - testclasses.Tc11 -INFO - Entered cmgoud@gmail.com
+2018-01-09 13:07:26,341 - testclasses.Tc11 -INFO - Entered Malleshwar
+2018-01-09 13:07:29,323 - testclasses.Tc11 -INFO - Text is displayed as :Services
+2018-01-09 13:07:32,313 - testclasses.Tc11 -INFO - Clicked on Partnerships Link
+2018-01-09 13:09:32,440 - testclasses.Tc11 -ERROR - Text is displayed as :ShareThisCopyAndPaste
+2018-01-09 13:09:34,557 - testclasses.Tc11 -INFO - Clicked on Services Link
+2018-01-09 13:33:30,938 - testclasses.Tc11 -INFO - Chrome Browser is Launched
+2018-01-09 13:33:43,602 - testclasses.Tc11 -INFO - Application is Launched
+2018-01-09 13:33:46,673 - testclasses.Tc11 -INFO - Entered cmgoud@gmail.com
+2018-01-09 13:33:48,168 - testclasses.Tc11 -INFO - Entered Malleshwar
+2018-01-09 13:33:51,428 - testclasses.Tc11 -INFO - Text is displayed as :Services
+2018-01-09 13:33:56,256 - testclasses.Tc11 -INFO - Clicked on Partnerships Link
+2018-01-09 13:35:56,548 - testclasses.Tc11 -ERROR - Text is displayed as :ShareThisCopyAndPaste
+2018-01-09 13:35:58,843 - testclasses.Tc11 -INFO - Clicked on Services Link
+2018-01-09 13:36:16,376 - testclasses.Tc11 -INFO - Chrome Browser is Launched
+2018-01-09 13:36:24,433 - testclasses.Tc11 -INFO - Application is Launched
+2018-01-09 13:36:25,886 - testclasses.Tc11 -INFO - Entered cmgoud@gmail.com
+2018-01-09 13:36:26,130 - testclasses.Tc11 -INFO - Entered Malleshwar
+2018-01-09 13:36:28,631 - testclasses.Tc11 -INFO - Text is displayed as :Services
+2018-01-09 13:36:31,335 - testclasses.Tc11 -INFO - Clicked on Partnerships Link
+2018-01-09 13:37:42,267 - testclasses.Tc11 -ERROR - Text is displayed as :ShareThisCopyAndPaste
+2018-01-09 13:37:50,486 - testclasses.Tc11 -INFO - Clicked on Services Link
+2018-01-09 13:40:37,887 - testclasses.Tc11 -INFO - Chrome Browser is Launched
+2018-01-09 13:40:43,880 - testclasses.Tc11 -INFO - Application is Launched
+2018-01-09 13:40:45,466 - testclasses.Tc11 -INFO - Entered cmgoud@gmail.com
+2018-01-09 13:40:45,638 - testclasses.Tc11 -INFO - Entered Malleshwar
+2018-01-09 13:40:48,608 - testclasses.Tc11 -INFO - Text is displayed as :Services
+2018-01-09 13:40:51,945 - testclasses.Tc11 -INFO - Clicked on Partnerships Link
+2018-01-09 13:40:58,136 - testclasses.Tc11 -ERROR - Text is displayed as :ShareThisCopyAndPaste
+2018-01-09 13:41:06,172 - testclasses.Tc11 -INFO - Clicked on Services Link
+2018-01-09 13:52:38,825 - testclasses.KrisTestCase1 -INFO - Chrome Browser is Launched
+2018-01-09 13:52:46,346 - testclasses.KrisTestCase1 -INFO - Application is Launched
+2018-01-09 13:52:47,744 - testclasses.KrisTestCase1 -INFO - Entered Kris Yalawarthy
+2018-01-09 13:52:47,944 - testclasses.KrisTestCase1 -INFO - Entered kris@devrabbit.com
+2018-01-09 13:52:50,542 - testclasses.KrisTestCase1 -INFO - Text is displayed as :Services
+2018-01-09 13:52:50,753 - testclasses.KrisTestCase1 -INFO - Text is displayed as :Company
+2018-01-09 13:52:51,353 - testclasses.KrisTestCase1 -INFO - Getting the text value:  BusinessAssuranceServices
+2018-01-09 14:00:41,351 - testclasses.KrisTestCase1 -INFO - Chrome Browser is Launched
+2018-01-09 14:00:49,727 - testclasses.KrisTestCase1 -INFO - Application is Launched
+2018-01-09 14:00:51,148 - testclasses.KrisTestCase1 -INFO - Entered Kris Yalawarthy
+2018-01-09 14:00:51,394 - testclasses.KrisTestCase1 -INFO - Entered kris@devrabbit.com
+2018-01-09 14:00:56,675 - testclasses.KrisTestCase1 -INFO - Text is displayed as :Services
+2018-01-09 14:00:56,895 - testclasses.KrisTestCase1 -INFO - Text is displayed as :Company
+2018-01-09 14:00:57,488 - testclasses.KrisTestCase1 -INFO - Getting the text value:  BusinessAssuranceServices
+2018-01-10 16:22:22,364 - testclasses.Tc11 -INFO - Chrome Browser is Launched
+2018-01-10 16:22:22,368 - testclasses.Tc11 -INFO - Chrome Browser is Launched
+2018-01-10 16:22:36,093 - testclasses.Tc11 -INFO - Application is Launched
+2018-01-10 16:22:36,159 - testclasses.Tc11 -INFO - Application is Launched
+2018-01-10 16:22:38,437 - testclasses.Tc11 -INFO - Entered cha@gmail.com
+2018-01-10 16:22:38,457 - testclasses.Tc11 -INFO - Entered cha@gmail.com
+2018-01-10 16:22:38,609 - testclasses.Tc11 -INFO - Entered vhanfra
+2018-01-10 16:22:38,832 - testclasses.Tc11 -INFO - Entered vhanfra
+2018-01-10 16:22:38,894 - testclasses.Tc11 -INFO - Entered 55666777888
+2018-01-10 16:22:39,047 - testclasses.Tc11 -INFO - Entered 55666777888
+2018-01-10 16:24:08,492 - testclasses.Tc11 -ERROR - Text is displayed as :ShareThisCopyAndPaste
+2018-01-10 16:24:10,764 - testclasses.Tc11 -ERROR - Text is displayed as :ShareThisCopyAndPaste
+2018-01-10 16:24:16,519 - testclasses.Tc11 -ERROR - Text is displayed as :Services
+2018-01-10 16:24:18,813 - testclasses.Tc11 -ERROR - Text is displayed as :Services
+2018-01-10 16:24:24,667 - testclasses.Tc11 -INFO - Getting the text value:  AReusableAutomationFoundation
+2018-01-10 16:24:26,948 - testclasses.Tc11 -INFO - Getting the text value:  AReusableAutomationFoundation
+2018-01-10 16:24:28,245 - testclasses.Tc11 -ERROR - Text is displayed as :AboutUs
+2018-01-10 16:24:28,761 - testclasses.Tc11 -ERROR - Text is displayed as :AboutUs
+2018-01-10 16:24:30,698 - org.apache.http.impl.execchain.RetryExec -INFO - I/O exception (java.net.SocketException) caught when processing request to {}->http://localhost:48912: Connection reset
+2018-01-10 16:24:30,698 - org.apache.http.impl.execchain.RetryExec -INFO - Retrying request to {}->http://localhost:48912

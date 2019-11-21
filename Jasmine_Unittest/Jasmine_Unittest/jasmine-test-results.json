@@ -1,0 +1,298 @@
+{
+    "suite1": {
+        "id": "suite1",
+        "description": "Convert library",
+        "fullName": "Convert library",
+        "failedExpectations": [],
+        "deprecationWarnings": [],
+        "duration": 0,
+        "status": "passed",
+        "specs": [
+            {
+                "id": "spec0",
+                "description": "throws an error when passed an unknown from-unit",
+                "fullName": "Convert library throws an error when passed an unknown from-unit",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toThrow",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "duration": null,
+                "status": "passed"
+            },
+            {
+                "id": "spec1",
+                "description": "throws an error when passed an unknown to-unit",
+                "fullName": "Convert library throws an error when passed an unknown to-unit",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toThrow",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "duration": null,
+                "status": "passed"
+            }
+        ]
+    },
+    "suite2": {
+        "id": "suite2",
+        "description": "distance converter",
+        "fullName": "distance converter",
+        "failedExpectations": [],
+        "deprecationWarnings": [],
+        "duration": 0,
+        "status": "passed",
+        "specs": [
+            {
+                "id": "spec2",
+                "description": "converts inches to centimeters",
+                "fullName": "distance converter converts inches to centimeters",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toEqual",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "duration": null,
+                "status": "passed"
+            },
+            {
+                "id": "spec3",
+                "description": "validating inches to centimeters",
+                "fullName": "distance converter validating inches to centimeters",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toBe",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "duration": null,
+                "status": "passed"
+            },
+            {
+                "id": "spec4",
+                "description": "converts feet to meter",
+                "fullName": "distance converter converts feet to meter",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toEqual",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "duration": null,
+                "status": "passed"
+            },
+            {
+                "id": "spec5",
+                "description": "converts centimeters to yards",
+                "fullName": "distance converter converts centimeters to yards",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toEqual",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "duration": null,
+                "status": "passed"
+            }
+        ]
+    },
+    "suite3": {
+        "id": "suite3",
+        "description": "volume converter",
+        "fullName": "volume converter",
+        "failedExpectations": [],
+        "deprecationWarnings": [],
+        "duration": 0,
+        "status": "passed",
+        "specs": [
+            {
+                "id": "spec6",
+                "description": "converts liters to gallons",
+                "fullName": "volume converter converts liters to gallons",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toEqual",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "duration": null,
+                "status": "passed"
+            },
+            {
+                "id": "spec7",
+                "description": "validating gallons to litres",
+                "fullName": "volume converter validating gallons to litres",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toBeNull",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "duration": null,
+                "status": "passed"
+            },
+            {
+                "id": "spec8",
+                "description": "converts gallons to cups",
+                "fullName": "volume converter converts gallons to cups",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toEqual",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "duration": null,
+                "status": "passed"
+            },
+            {
+                "id": "spec9",
+                "description": "validating cups to litres",
+                "fullName": "volume converter validating cups to litres",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toBeCloseTo",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "duration": null,
+                "status": "passed"
+            }
+        ]
+    },
+    "suite4": {
+        "id": "suite4",
+        "description": "temperature converter",
+        "fullName": "temperature converter",
+        "failedExpectations": [],
+        "deprecationWarnings": [],
+        "duration": 0,
+        "status": "passed",
+        "specs": [
+            {
+                "id": "spec10",
+                "description": "converts celsius to fahrenheit",
+                "fullName": "temperature converter converts celsius to fahrenheit",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toEqual",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "duration": null,
+                "status": "passed"
+            },
+            {
+                "id": "spec11",
+                "description": "validating celsius to fahrenheit conversion",
+                "fullName": "temperature converter validating celsius to fahrenheit conversion",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toBeNull",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "duration": null,
+                "status": "passed"
+            },
+            {
+                "id": "spec12",
+                "description": "converts fahrenheit to celsius",
+                "fullName": "temperature converter converts fahrenheit to celsius",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toEqual",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "duration": null,
+                "status": "passed"
+            },
+            {
+                "id": "spec13",
+                "description": "validating fahrenheit to celsius conversion",
+                "fullName": "temperature converter validating fahrenheit to celsius conversion",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toBeGreaterThan",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "duration": null,
+                "status": "passed"
+            }
+        ]
+    }
+}

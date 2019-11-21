@@ -1,0 +1,22 @@
+"Method","Name","# requests","# failures","Median response time","Average response time","Min response time","Max response time","Average Content Size","Requests/s"
+"POST","/api/create",20,0,210,244,158,338,83,0.34
+"GET","/api/planets/3/",44,0,1100,898,331,2364,388,0.74
+"GET","/api/user/",20,0,15,29,9,111,568,0.34
+"PUT","/api/user/201",3,0,300,300,296,305,80,0.05
+"PUT","/api/user/272",1,0,330,326,326,326,80,0.02
+"PUT","/api/user/28",2,0,320,331,320,342,80,0.03
+"PUT","/api/user/298",1,0,320,322,322,322,80,0.02
+"PUT","/api/user/54",1,0,310,309,309,309,80,0.02
+"PUT","/api/user/75",2,0,310,309,306,312,80,0.03
+"PUT","/api/user/824",1,0,300,300,300,300,80,0.02
+"PUT","/api/user/847",2,0,300,320,304,336,80,0.03
+"PUT","/api/user/903",1,0,300,298,298,298,80,0.02
+"PUT","/api/user/921",2,0,300,308,300,316,80,0.03
+"PUT","/api/user/943",3,0,310,306,302,309,80,0.05
+"PUT","/api/user/96",1,0,300,300,300,300,80,0.02
+"GET","/todos/",23,0,59,60,54,69,24311,0.39
+"POST","/todos/",24,0,800,897,353,2586,87,0.40
+"GET","/v2/everything?q=bitcoin&apiKey=03bebe1127dd427f881b36aa9be1f93c",21,0,230,307,215,860,20619,0.35
+"GET","/v2/sources?apiKey=03bebe1127dd427f881b36aa9be1f93c",20,0,220,285,217,633,39221,0.34
+"GET","/v2/top-headlines?country=us&apiKey=03bebe1127dd427f881b36aa9be1f93c",42,0,220,358,214,1658,17742,0.70
+"None","Total",234,0,240,433,9,2586,10921,3.93

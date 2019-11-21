@@ -1,0 +1,58 @@
+@media screen and (min-width:1600px){
+	.pagedetails_maintable{
+		height: 600px;
+		overflow: auto;
+	}
+	.slimScrollDiv{
+		height:600px !important;
+	}
+	#testDiv4, #testDiv5{
+		height:600px !important;
+	}
+}
+@media screen and (min-width:1024px) and (max-width:1300px){
+	.pagedetails_maintable{
+		height: 385px;
+		overflow: auto;
+	}
+	.slimScrollDiv{
+		height:385px !important;
+	}
+	#testDiv4, #testDiv5{
+		height:385px !important;
+	}
+}
+@media screen and (min-width:1000px) and (max-width:1255px){
+	.pagedetails_maintable{
+		width: calc(100% - 60px);
+		margin: auto;
+		margin-right: 0;
+	}
+}
+@media screen and (max-width:1366px){
+	.content hr{
+		margin: 10px 0px;
+	}
+	.card .content {
+		padding: 0;
+	}
+}
+
+@media screen and (min-width: 768px){
+	.modal-dialog {
+		width: 800px;
+		margin: 30px auto;
+	}
+	#myvalidate .modal-dialog {
+		width: 600px;
+		margin: 30px auto;
+	}
+}
+
+@media screen and (max-width:420px){
+	#content{
+		width: 290px;
+		margin: auto;
+		margin-top: 15px;
+	}
+}

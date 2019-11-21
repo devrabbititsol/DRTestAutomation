@@ -1,0 +1,196 @@
+#loading {
+	position: absolute;
+	width: 592px; /*image width */
+	height: 512px; /*image height */
+	left: 50%;
+	top: 50%;
+	margin-left: -296px; /*image width/2 */
+	margin-top: -256px; /*image height/2 */
+}
+
+.fileds p stong:first-child {
+	width: 150px;
+}
+
+td.showmodel {
+	cursor: hand;
+}
+
+body.dragging, body.dragging * {
+	cursor: move !important;
+}
+
+.dragged {
+	position: absolute;
+	opacity: 0.5;
+	z-index: 2000;
+}
+
+ul {
+	list-style-type: none;
+}
+
+ul.example li.placeholder {
+	position: relative;
+
+	/** More li styles **/
+}
+
+ul.example li.placeholder:before {
+	position: absolute;
+	/** Define arrowhead **/
+}
+
+#sortable-1 {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 25%;
+}
+
+#sortable-1 li {
+	margin: 0 3px 3px 3px;
+	padding: 0.4em;
+	padding-left: 1.5em;
+	font-size: 17px;
+	height: 16px;
+}
+
+.default {
+	background: #cedc98;
+	border: 1px solid #DDDDDD;
+	color: #333333;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+	border: 2px solid black;
+}
+
+thead, tbody, tr, td, th {
+	box-sizing: border-box;
+	display: block;
+}
+
+tr:after {
+	content: ' ';
+	display: block;
+	visibility: hidden;
+	clear: both;
+}
+
+thead th {
+	height: 30px;
+	line-height: 30px;
+	/*text-align: left;*/
+}
+
+/*any os other than mac*/
+tbody {
+	height: 300px;
+	overflow-y: auto;
+	width: 100%;
+}
+
+/*any os other than mac*/
+thead {
+	width: 100%;
+	padding-right: 17px;
+	background: -o-linear-gradient(bottom, #003366 5%, #003f7f 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #003366
+		), color-stop(1, #003f7f));
+	background: -moz-linear-gradient(center top, #003366 5%, #003f7f 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#003366",
+		endColorstr="#003f7f");
+	background: -o-linear-gradient(top, #003366, 003f7f);
+	background-color: #003366;
+}
+/*if mac os*/
+body.MacOS thead {
+	padding-right: 0;
+}
+
+tbody {
+	border-top: 2px solid black;
+}
+
+tbody td, thead th {
+	width: 20%;
+	float: left;
+	border-right: 1px solid black;
+}
+
+.table--class {
+	margin: 0px;
+	padding: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	-moz-border-radius-bottomleft: 0px;
+	-webkit-border-bottom-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	-moz-border-radius-bottomright: 0px;
+	-webkit-border-bottom-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	-moz-border-radius-topright: 0px;
+	-webkit-border-top-right-radius: 0px;
+	border-top-right-radius: 0px;
+	-moz-border-radius-topleft: 0px;
+	-webkit-border-top-left-radius: 0px;
+	border-top-left-radius: 0px;
+}
+
+.table--class tr:last-child td:last-child {
+	-moz-border-radius-bottomright: 0px;
+	-webkit-border-bottom-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+
+.table--class table tr:first-child td:first-child {
+	-moz-border-radius-topleft: 0px;
+	-webkit-border-top-left-radius: 0px;
+	border-top-left-radius: 0px;
+}
+
+.table--class table tr:first-child td:last-child {
+	-moz-border-radius-topright: 0px;
+	-webkit-border-top-right-radius: 0px;
+	border-top-right-radius: 0px;
+}
+
+.table--class tr:last-child td:first-child {
+	-moz-border-radius-bottomleft: 0px;
+	-webkit-border-bottom-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+
+.table--class tr:hover td {
+	background-color: #cccccc;
+}
+
+.table--class tr:first-child th {
+	border: 0px solid #4c7299;
+	text-align: center;
+	border-width: 0px 0px 1px 1px;
+	font-size: 18px;
+	font-family: Arial Black;
+	font-weight: bold;
+}
+
+.table--class tr:first-child:hover th {
+	
+}
+
+.table--class tr:first-child th:first-child {
+	border-width: 0px 0px 1px 0px;
+}
+
+.table--class tr:first-child th:last-child {
+	border-width: 0px 0px 1px 1px;
+}
+
+tbody td:last-child, thead th:last-child {
+	border-right: none;
+}

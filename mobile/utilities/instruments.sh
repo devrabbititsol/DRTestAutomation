@@ -1,1 +1,0 @@
-instruments -s devices

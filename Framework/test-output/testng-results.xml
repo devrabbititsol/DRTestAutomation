@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Main Test Suite" duration-ms="21301" started-at="2018-01-09T08:30:37Z" finished-at="2018-01-09T08:30:59Z">
+    <groups>
+    </groups>
+    <test name="test" duration-ms="21301" started-at="2018-01-09T08:30:37Z" finished-at="2018-01-09T08:30:59Z">
+      <class name="testclasses.KrisTestCase1">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:testclasses.KrisTestCase1@18bf3d14]" name="setUP" is-config="true" duration-ms="12881" started-at="2018-01-09T14:00:37Z" finished-at="2018-01-09T14:00:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="KrisScreen1Test()[pri:1, instance:testclasses.KrisTestCase1@18bf3d14]" name="KrisScreen1Test" duration-ms="5817" started-at="2018-01-09T14:00:50Z" finished-at="2018-01-09T14:00:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- KrisScreen1Test -->
+        <test-method status="PASS" signature="KrisScreen2Test()[pri:2, instance:testclasses.KrisTestCase1@18bf3d14]" name="KrisScreen2Test" duration-ms="808" started-at="2018-01-09T14:00:56Z" finished-at="2018-01-09T14:00:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- KrisScreen2Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testclasses.KrisTestCase1@18bf3d14]" name="tearDown" is-config="true" duration-ms="1767" started-at="2018-01-09T14:00:57Z" finished-at="2018-01-09T14:00:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testclasses.KrisTestCase1 -->
+    </test> <!-- test -->
+  </suite> <!-- Main Test Suite -->
+</testng-results>

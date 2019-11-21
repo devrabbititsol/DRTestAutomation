@@ -1,0 +1,162 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for Framework:Framework:jar:0.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 161, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Framework 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[WARNING] The artifact jexcelapi:jxl:jar:2.6 has been relocated to net.sourceforge.jexcelapi:jxl:jar:2.6
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ Framework ---
+[INFO] Deleting D:\RestAPITesting\Framework\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Framework ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory D:\RestAPITesting\Framework\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ Framework ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ Framework ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory D:\RestAPITesting\Framework\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ Framework ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 7 source files to D:\RestAPITesting\Framework\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ Framework ---
+[INFO] Surefire report directory: D:\RestAPITesting\Framework\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+ INFO [main] (Tc11.java:44)- Chrome Browser is Launched
+ INFO [main] (Tc11.java:47)- Application is Launched
+ INFO [main] (Tc11.java:56)- Entered cmgoud@gmail.com
+ INFO [main] (Tc11.java:59)- Entered Malleshwar
+ INFO [main] (Tc11.java:64)- Text is displayed as :Services
+ INFO [main] (Tc11.java:77)- Clicked on Partnerships Link
+Timed out after 120 seconds waiting for visibility of [[ChromeDriver: chrome on XP (89ad50dd0d8a68564468a40cc3b43d32)] -> xpath: //div[@id='stcpDiv']]
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DESKTOP-5LUQS0C', ip: '192.168.1.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\cmgoud\AppData\Local\Temp\scoped_dir13032_23834}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.84, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 89ad50dd0d8a68564468a40cc3b43d32
+Element is not displayed 
+ERROR [main] (Tc11.java:85)- Text is displayed as :ShareThisCopyAndPaste
+09-01-2018 12-50-29
+screenshot is taken
+ INFO [main] (Tc11.java:89)- Clicked on Services Link
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 148.88 sec - in TestSuite
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 02:36 min
+[INFO] Finished at: 2018-01-09T12:50:34+05:30
+[INFO] Final Memory: 23M/169M
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for Framework:Framework:jar:0.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 161, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Framework 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[WARNING] The artifact jexcelapi:jxl:jar:2.6 has been relocated to net.sourceforge.jexcelapi:jxl:jar:2.6
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ Framework ---
+[INFO] Deleting D:\RestAPITesting\Framework\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Framework ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory D:\RestAPITesting\Framework\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ Framework ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ Framework ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory D:\RestAPITesting\Framework\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ Framework ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 7 source files to D:\RestAPITesting\Framework\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ Framework ---
+[INFO] Surefire report directory: D:\RestAPITesting\Framework\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+ INFO [main] (Tc11.java:44)- Chrome Browser is Launched
+ INFO [main] (Tc11.java:47)- Application is Launched
+ INFO [main] (Tc11.java:56)- Entered cmgoud@gmail.com
+ INFO [main] (Tc11.java:59)- Entered Malleshwar
+ INFO [main] (Tc11.java:64)- Text is displayed as :Services
+ INFO [main] (Tc11.java:77)- Clicked on Partnerships Link
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for Framework:Framework:jar:0.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 161, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Framework 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[WARNING] The artifact jexcelapi:jxl:jar:2.6 has been relocated to net.sourceforge.jexcelapi:jxl:jar:2.6
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ Framework ---
+[INFO] Deleting D:\RestAPITesting\Framework\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Framework ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory D:\RestAPITesting\Framework\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ Framework ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ Framework ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory D:\RestAPITesting\Framework\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ Framework ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 7 source files to D:\RestAPITesting\Framework\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ Framework ---
+[INFO] Surefire report directory: D:\RestAPITesting\Framework\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+ INFO [main] (Tc11.java:44)- Chrome Browser is Launched
+ INFO [main] (Tc11.java:47)- Application is Launched
+ INFO [main] (Tc11.java:56)- Entered cmgoud@gmail.com
+ INFO [main] (Tc11.java:59)- Entered Malleshwar
+ INFO [main] (Tc11.java:64)- Text is displayed as :Services
+ INFO [main] (Tc11.java:77)- Clicked on Partnerships Link

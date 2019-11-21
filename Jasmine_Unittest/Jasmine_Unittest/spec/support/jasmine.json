@@ -1,0 +1,11 @@
+{
+  "spec_dir": "spec",
+  "spec_files": [
+    "convertSpec.js"
+  ],
+  "helpers": [
+    "helpers/jasmine_examples/jasmine-json-test-report.js"
+  ],
+  "stopSpecOnExpectationFailure": false,
+  "random": false
+}

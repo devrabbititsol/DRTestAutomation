@@ -1,0 +1,6 @@
+#surefire_0
+#Wed Jan 10 16:22:13 IST 2018
+user.dir=D\:\\APITesting\\Framework
+suiteXmlFile=D\:\\APITesting\\Framework\\testng.xml
+localRepository=C\:\\Users\\cmgoud\\.m2\\repository
+basedir=D\:\\APITesting\\Framework
