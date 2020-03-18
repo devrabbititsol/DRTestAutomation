@@ -8,17 +8,18 @@ from pytest_bdd import (
     when,
 )
 
-import page_objects.fund_transfer_page as funds
-import page_objects.open_new_account_page as acnt_page
+from page_objects.fund_transfer_page import FundTransferPage
+from page_objects.open_new_account_page import OpenNewAccountPage
 from utilities.base_class import BaseClass as base
+
 import os
 import pytest
 import pytest_bdd
 import pytest_html
 
 feature_file_path = base.feature_file_path('transfer_funds.feature')
-page = funds.FundTransferPage()
-accounts_page = acnt_page.OpenNewAccountPage()
+page = FundTransferPage()
+accounts_page = OpenNewAccountPage()
 
 @scenario(feature_file_path, 'Account Overview')
 def test_account_overview():

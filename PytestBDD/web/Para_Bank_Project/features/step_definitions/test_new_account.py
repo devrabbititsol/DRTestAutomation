@@ -5,6 +5,7 @@ import os
 import pytest
 import pytest_bdd
 import pytest_html
+import config
 from logger import logger
 from pytest_bdd import (
     given,
@@ -12,20 +13,24 @@ from pytest_bdd import (
     then,
     when,
 )
-import page_objects.open_new_account_page as page
+
 from utilities.base_class import BaseClass as base
 
-feature_file_path=base.feature_file_path('open_new_account.feature')
-account_page =page.OpenNewAccountPage()
+from page_objects.open_new_account_page import OpenNewAccountPage
+
+feature_file_path = base.feature_file_path('open_new_account.feature')
+account_page = OpenNewAccountPage()
+
 
 @scenario(feature_file_path, 'Opening a new account')
 def test_opening_a_new_account():
     """Opening a new account."""
 
+
 @given('Login with valid user credetials and navigate to Open New Account page')
 def login_with_valid_user_credetials_and_navigate_to_open_new_account_page():
     global driver
-    driver=base.launch_browser()
+    driver = base.launch_browser()
     logger.info("browser launched and navigate to Para Bank home page")
     account_page.fill_username_fld(driver)
     logger.info("Filled username field")
@@ -37,11 +42,13 @@ def login_with_valid_user_credetials_and_navigate_to_open_new_account_page():
     account_page.clk_new_account_link(driver)
     logger.info("Clicked on open new account link")
 
+
 @when('user click on open new account button')
 def user_click_on_open_new_account_button():
     # account_page.clk_new_account_btn(driver)
     logger.info("Clicked on open new account button")
     # time.sleep(10)
+
 
 @then('Application should create a new account for user')
 def application_should_create_a_new_account_for_user():

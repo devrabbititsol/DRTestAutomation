@@ -8,16 +8,17 @@ from pytest_bdd import (
 )
 import os
 import pytest
-pytest.config
+
+from page_objects.open_new_account_page import OpenNewAccountPage
+from page_objects.verify_customercare_page import CustomerCareServices
+
 import pytest_bdd
 import pytest_html
-import page_objects.verify_customercare_page as _page
 from utilities.base_class import BaseClass as base
-import page_objects.open_new_account_page as acnt_page
 
 feature_file_path=base.feature_file_path('verify_customercare_services.feature')
-page=_page.CustomerCareServices()
-account_page=acnt_page.OpenNewAccountPage()
+page= CustomerCareServices()
+account_page= OpenNewAccountPage()
 
 @scenario(feature_file_path, 'Customer Care Services')
 def test_customer_care_services():

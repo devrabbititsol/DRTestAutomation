@@ -12,11 +12,12 @@ from pytest_bdd import (
     then,
     when,
 )
-import page_objects.register_page as page
+
+from page_objects.register_page import RegistrationPage
 from utilities.base_class import BaseClass as base
 
 feature_file_path = base.feature_file_path('registration.feature')
-register = page.RegistrationPage()
+register = RegistrationPage()
 
 @scenario(feature_file_path, 'New user registration')
 def test_registering_a_new_user():

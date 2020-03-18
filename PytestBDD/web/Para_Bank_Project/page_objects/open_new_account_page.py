@@ -1,10 +1,12 @@
 import time
 
-from utilities.base_class import BaseClass
 import os
 import pytest
 import pytest_bdd
 import pytest_html
+
+from utilities.base_class import BaseClass
+
 
 class OpenNewAccountPage(BaseClass):
 
