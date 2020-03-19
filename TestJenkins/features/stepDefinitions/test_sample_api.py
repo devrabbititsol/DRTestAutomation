@@ -1,7 +1,7 @@
 import json
 import os
 from os.path import dirname
-import request
+#import request
 import logging
 
 import requests
