@@ -168,12 +168,12 @@ class BaseUI(object):
         driver = None
         if browser_type is 'chrome':
             options = webdriver.ChromeOptions()
-            # options.add_argument('--headless')
+            options.add_argument('--headless')
             options.add_argument(
                 '--no-sandbox')  # required when running as root user. otherwise you would get no sandbox errors.
-            # driver = webdriver.Chrome(executable_path='/usr/local/bin/chromedriver', chrome_options=options)
+            driver = webdriver.Chrome(executable_path='/usr/local/bin/chromedriver', chrome_options=options)
             # /usr/local/bin/chromedriver
-            driver = webdriver.Chrome(ChromeDriverManager().install(), chrome_options=options)
+            # driver = webdriver.Chrome(ChromeDriverManager().install(), chrome_options=options)
             # driver = webdriver.Chrome(ChromeDriverManager().install())
         driver.implicitly_wait(30)
         driver.maximize_window()
