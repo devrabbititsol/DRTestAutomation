@@ -2,7 +2,6 @@ import logging
 import re
 from locust import HttpLocust, TaskSet, task
 
-
 class UserBehavior(TaskSet):
     HOME_PAGE_TITLE_REGEX = re.compile(".*Welcome,.*")
     SEARCH_RESULT_REGEX = re.compile(".*You searched for.*")
@@ -38,7 +37,6 @@ class UserBehavior(TaskSet):
                         self.client.get("/hms/logout.php")
             else:
                 response_post.failure("/hms/" + ": returned " + str(response_post.status_code))
-
 
 class WebsiteUser(HttpLocust):
     task_set = UserBehavior

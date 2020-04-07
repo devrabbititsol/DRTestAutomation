@@ -12,12 +12,12 @@ logging.basicConfig(level=logging.INFO)
 class TestingError(RuntimeError):
     pass
 
-
-base = BaseUI()
+class Tours:
+    driver = None
+base = BaseUI(Tours.driver)
 tours = LoginTour()
 GlobalVariables.project_path = dirname(dirname(__file__))
 GlobalVariables.feature_file_path = os.path.join(GlobalVariables.project_path, 'tours.feature')
-
 
 @scenario(GlobalVariables.feature_file_path, 'To Verify Login functionality')
 def test_to_verify_login_functionality():
@@ -28,7 +28,6 @@ def test_to_verify_login_functionality():
 def i_navigate_to_web_page():
     GlobalVariables.web_driver = base.launch_browser()
     logging.info('Chrome browser is launched')
-
 
 @when('i enter email and password')
 def i_enter_email_and_password():

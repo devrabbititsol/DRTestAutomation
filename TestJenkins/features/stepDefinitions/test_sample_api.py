@@ -12,8 +12,6 @@ from pytest_bdd import (
     when,
 )
 
-
-
 class API_Test():
     project_path = dirname(dirname(__file__))
     feature_file_path = os.path.join(project_path, 'sample_api.feature')

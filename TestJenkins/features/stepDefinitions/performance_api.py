@@ -36,5 +36,5 @@ class userapi(TaskSequence):
 class getRequest(HttpLocust):
     task_set = userapi
     host = "https://reqres.in"
-    min_wait = 1000
-    max_wait = 5000
+    min_wait = 5000
+    max_wait = 10000

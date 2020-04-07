@@ -13,12 +13,10 @@ from pytest_bdd import (
 
 from utilities.testdata import CreateUserTestData
 from utilities.global_variables import GlobalVariables
-
 logging.basicConfig(level=logging.INFO)
 
 GlobalVariables.project_path = dirname(dirname(__file__))
 GlobalVariables.feature_file_path = os.path.join(GlobalVariables.project_path, "user_creation.feature")
-
 
 class TestingError(RuntimeError):
     pass
@@ -27,14 +25,10 @@ class TestingError(RuntimeError):
 @scenario(GlobalVariables.feature_file_path, 'Creating an User using a Sample API')
 def test_creating_an_user_using_a_sample_api():
     """Creating an User using a Sample API."""
-
-
 @given('URI for sample API')
 def uri_for_sample_api():
     """URI for sample API."""
     logging.info("URI for api is : %s", CreateUserTestData.api_create_user_url)
-
-
 @when('I perform POST and GET Requests')
 def i_perform_post_and_get_requests():
     """I perform POST and GET Requests."""
